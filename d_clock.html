@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #background {
+            height: 100vh;
+            border: 1px solid black;
+            background: linear-gradient(to right ,purple,pink);
+        }
+
+        #border{
+            text-align: center;
+            line-height: 250px;
+        }
+
+
+        #head{
+            text-align: center;
+            margin-top: 50px;
+            color: aliceblue;
+            font-size: 30px;
+        }
+
+        #border{
+            margin-top: 150px;
+            padding: 40px;
+           
+
+            
+        }
+
+        #hours{
+           
+            padding: 60px;
+            font-size: 50px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 10px 5px 10px 5px rgba(0, 204, 255, 0.507);
+        }
+
+        #minutes{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 60px;
+            font-size: 50px;
+            box-shadow: 10px 5px 10px 5px rgba(0, 204, 255, 0.507);
+        }
+
+        #second{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 60px;
+            font-size: 50px;
+            box-shadow: 10px 5px 10px 5px rgba(0, 204, 255, 0.507);
+        }
+
+        #am_pm{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 60px;
+            margin-left: 10px;
+            font-size: 50px;
+            box-shadow: 10px 5px 10px 5px rgba(0, 204, 255, 0.507);
+
+        }
+
+        .double_couts{
+            font-size: 70PX;
+        }
+
+
+
+        /* dates */
+
+
+        #date_index{
+            border: 1px solid black;
+            height: 100vh;
+            margin-top: 40px;
+        }
+        #date_index{
+            text-align: center;
+            line-height: 200px;
+            background: linear-gradient( to right,pink,purple);
+            
+        }
+
+        .date_border{
+            font-size: 70PX;
+            padding: 60px;
+            /* border: 1px solid black; */
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 10px 5px 10px 5px rgba(0, 204, 255, 0.507);
+        }
+        #date_head{
+            color: aliceblue;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="background">
+
+        <div id="head">
+
+            <h1>DIGITAL CLOCK</h1>
+
+        </div>
+
+        <div id="border">
+
+            <span id="hours">00</span>
+            <span class="double_couts">:</span>
+            <span id="minutes">00</span>
+            <span class="double_couts">:</span>
+            <span id="second">00</span>
+            <span class="double_couts">:</span>
+            <span id="am_pm">am</span>
+            
+        </div>
+
+
+        <div id="date_index">
+
+            <div id="date_head">
+
+                <h1>DATE</h1>
+
+            </div>
+
+            <span id="dates" class="date_border">00</span>
+            <span class="double_couts">:</span>
+            <span id="months"  class="date_border">00</span>
+            <span class="double_couts">:</span>
+            <span id="years"  class="date_border">0000</span>
+           
+           
+        </div>
+
+    </div>
+
+    <script src="./d_clcok.js"></script>
+</body>
+
+</html>
